@@ -1,0 +1,61 @@
+
+str = "hello world"
+print(str)
+stg = "I'm here"
+print(stg)
+stm = '''hello 
+i need nothing'''
+print(stm)
+sts = 'I need nothing"i dont know how to do"'
+print(sts.split())
+print(sts)
+stm = """I'm need nothing"""
+print(stm)
+ste = 'i\'m nothing'
+print(ste)
+stp = "my self lokesh "
+print(len(stp))
+print(stp.count(''))
+print(stp[3])
+stc = "my self lokesh"
+for i in stc:
+    print(i,end="")
+std = "me lokesh"
+for i in std:
+    print(i,end="")
+print()
+stq = "lasktapa"
+print(stq[0:5])
+print(stq[5:])
+print(stq[0:])
+print(stq[:4])
+print(stq.upper())
+print(stq.lower())
+print(stq.replace("lasktapa", "mama lasktapa"))
+stm1 = "lokesh"
+stm2 = "kilaru"
+stm = stm1+" "+stm2
+print(stm)
+str1 = "I"
+str2 = "am"
+str3 = "lokesh"
+str = "{} {} {}".format(str1,str2,str3)
+print(str)
+stv = (input("Enter a number: "))
+stv = stv + " "
+temp = " "
+rev = " "
+for i in stv:
+    if i != " ":
+        temp = i + temp
+    else:
+        rev = rev + " " + temp
+        temp = " "
+print(rev)
+stx = input("Enter a number: ")
+print(stx[::-1])
+x = input("write a sentence: ")
+vowels = "aeiou"
+count = 0
+for i in x:
+    if i in vowels: count = count + 1
