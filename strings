@@ -1,4 +1,4 @@
-
+stings 
 str = "hello world"
 print(str)
 stg = "I'm here"
